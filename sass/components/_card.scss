@@ -1,0 +1,33 @@
+.card {
+    position: relative;
+    width: 70%;
+    background-color: rgba($color-grey-middle-2, 0.8);
+    margin: 4rem auto;
+    padding: 2rem 3rem; 
+    border: 1px solid $color-grey-middle-2;  
+    
+    @include respond(phone) {
+        width: 90%;
+        padding: 0.5rem;
+    }
+}
+
+.quote {
+    padding: 1.5rem;
+
+    @include respond(phone) {
+        padding: 0.75rem;
+    }
+
+    &--text {
+        font-size: 2rem;
+
+        @include respond(phone) {
+            font-size: 1.6rem;
+        }
+    }
+
+    &--author {
+        font-style: italic;
+    }
+}
