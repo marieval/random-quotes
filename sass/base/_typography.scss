@@ -9,7 +9,7 @@ body {
 
     @include respond(phone) {
         padding-bottom: 1rem; 
-        padding-top: 3rem;            
+        padding-top: 3rem;           
     }
     
     &--main {

@@ -47,6 +47,9 @@ body {
 .section--quote {
   flex: 1 0 auto;
   margin-bottom: 5rem; }
+  @media only screen and (max-width: 37.5em) {
+    .section--quote {
+      margin-bottom: 2rem; } }
 
 body {
   text-align: center;
@@ -91,8 +94,9 @@ body {
   border: 1px solid #e2e2e2; }
   @media only screen and (max-width: 37.5em) {
     .card {
-      width: 90%;
-      padding: 0.5rem; } }
+      width: 95%;
+      padding: 0.5rem;
+      margin: 1rem auto; } }
 
 .quote {
   padding: 1.5rem; }

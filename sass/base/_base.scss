@@ -43,4 +43,9 @@ body {
 .section--quote {
     flex: 1 0 auto;
     margin-bottom: 5rem;
+
+    @include respond(phone) {
+            margin-bottom: 2rem;
+        }
+
 } 
